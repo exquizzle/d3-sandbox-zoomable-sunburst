@@ -2,19 +2,40 @@ svg {
   background-color: snow;
 }
 
-.node circle {
+/* path {
+  fill: rgb(110, 64, 170);
+  fill-opacity: 0;
+} */
+path {
+  fill: #333;
+  opacity: 0.3;
+  stroke: white;
+}
+
+
+/* text {
+  display: black;
+  transform: rotate(-8.55365deg) translate(233, 0) rotate(0deg);
+} */
+
+circle {
   fill: #fff;
+  /* fill: none; */
   stroke: steelblue;
   stroke-width: 3px;
+  pointer-events: all;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
 }
 
 .node text {
   font: 12px sans-serif;
 }
 
-.link {
+/* .link {
   fill: none;
-  /* stroke: #ccc; */
   stroke: green;
   stroke-width: 2px;
-}
+} */

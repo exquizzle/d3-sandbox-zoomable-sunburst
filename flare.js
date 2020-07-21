@@ -1,22 +1,47 @@
 /* eslint-disable */
 
-var flare =
-{
-  "name": "Top Level",
+// var flare =
+// {
+//   "name": "Top Level",
+//   "children": [
+//     { 
+//       "name": "Level 2: A",
+//       "children": [
+//         { "name": "Son of A" },
+//         { "name": "Daughter of A" }
+//       ]
+//     },
+//     { "name": "Level 2: B" }
+//   ]
+// };
+
+
+var flare = {
+  "name": "Application",
   "children": [
-    { 
-      "name": "Level 2: A",
+    {
+      "name": "Selector 1",
       "children": [
-        { "name": "Son of A" },
-        { "name": "Daughter of A" }
+        {
+          "name": "Atom1",
+          "value": 100
+        },
+        {
+          "name": "Atom2",
+          "value": 300
+        },
+        {
+          "name": "Atom3",
+          "value": 200
+        }
       ]
     },
-    { "name": "Level 2: B" }
+    {
+      "name": "Atom A",
+      "value": 200
+    }
   ]
 };
-
-
-
 
 // const flare = {
 //     "name": "flare",
